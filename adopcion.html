@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>31 gatitos</title>
+    <link rel="stylesheet" href="src/Cafe Matcha.ttf">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/linde.css">
+</head>
+<body>
+    <div class="container-fluid col-11">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" style="font-family: Milky Coffee;font-size: 30px;color: rgb(81, 81, 81);" aria-current="page" href="inicio.html">
+                <img src="img/cat-icon.png" width="25px" height="25px" class="d-line-block align-text-center">
+                31 gatitos</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-nav align-text-right d-flex" id="navbarScroll" style="font-family: Franklin Gothic Medium;">
+                <ul class="navbar-nav  " style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="galería.html">Galería</a>
+                  </li>
+                    <a class="nav-link" href="adopcion.html"><b>Adopción</b></a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav> <br>
+
+        <center>
+        <br><h1 style="color: #588157;font-family: ADELIA;">TE GUSTARÍA ADOPTAR A UNO DE NUESTROS GATOS</h1><br>
+        <p style="font-family: Rochaline;color: #588157;font-size: 20px;">Algunos de nuestros pequeños que buscan un hogar:</p>
+        <hr class="divider w-25">
+          <br>
+
+          <div class="row" style="font-family: Bahnschrift Condensed;color: #a5a58d;">
+            <div class="col-4">
+              <img src="img/peach_.jpg" width="250px" height="250px" ><br>
+              <h5>Peach</h5>
+              <p></p>
+              </div>
+              <div class="col-4">
+                <img src="img/gaty_peluso_.jpg" width="250px" height="250px"><br>
+                <h5>Gaty peluso</h5>
+                <p></p>
+              </div>
+              <div class="col-4">
+                <img src="img/lúmina_Lucrecia_.jpg" width="250px" height="250px"><br>
+                <h5>Lúmina Lucrecia</h5>
+                <p></p>
+              </div>
+            </div><br><br>
+
+            <div class="border border-success p-2 mb-2 border-opacity-25 col-9 rounded-3">
+              <div class="col-8 ">
+                <br><em><h3 style="font-family: Franklin Gothic Medium; color: rgb(94, 91, 91);">Datos para adoptar:</h3></em>
+                <hr class="divider " width="45%">
+                <br>
+                <form class=" g-3 needs-validation" onsubmit=" validarFormulario()" novalidate>
+                  <div class="col-12">
+                    <label for="validationCustom01" class="form-label" id="sis">Nombre:</label>
+                    <input type="text" class="form-control" id="nombreP" placeholder="Minho" required>
+                    <div class="valid-feedback">
+                      :D!
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <label for="validationCustomUsername" class="form-label" id="sis">Correo electrónico:</label>
+                    <div class="input-group has-validation">
+                      <input type="text" class="form-control" id="emailP" aria-describedby="inputGroupPrepend" required>
+                      <span class="input-group-text" >@gmail.com</span>
+                      <div class="invalid-feedback">
+                        Por favor coloque su correo electrónico.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <label for="validationCustom02" class="form-label" id="sis">Número telefónico:</label>
+                    <input type="text" class="form-control" id="telefonoP" placeholder="+52" required>
+                    <div class="valid-feedback">
+                      :D!
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="validationCustom03" class="form-label" id="sis">Edad</label>
+                      <input type="number" class="form-control" id="edadP" placeholder="18" required>
+                      <div class="invalid-feedback">
+                        Por favor ingrese su edad.
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationCustom04" class="form-label" id="sis">Género</label>
+                      <select class="form-select" id="generoP" required>
+                        <option selected disabled value="">...</option>
+                        <option value="Mujer">Mujer</option>
+                        <option value="No binario">No binario</option>
+                        <option value="Hombre">Hombre</option>
+                        <option value="Prefiero no decir">Prefiero no decir</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Por favor escoja una opción.
+                      </div>
+                    </div>
+                  </div><br>
+
+                  <label for="basic-url" class="form-label" style="font-family: 
+                    Franklin Gothic Medium; color: #3a5a40;font-size: 20px;" ><em> Gatito:</em></label>
+                    <hr class="divider " width="25%">
+
+                  <div class="col-12">
+                    <label for="validationCustom01" class="form-label" id="sis">Nombre del gatito:</label>
+                    <input type="text" class="form-control" id="nombreG" placeholder="Peach" required>
+                    <div class="valid-feedback">
+                      :D!
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="validationCustom03" class="form-label" id="sis">Edad</label>
+                      <input type="number" class="form-control" id="edadG" placeholder="3 meses" required>
+                      <div class="invalid-feedback">
+                        Por favor ingrese su edad.
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationCustom04" class="form-label" id="sis">Sexo</label>
+                      <select class="form-select" id="sexoG" required>
+                        <option selected disabled value="">...</option>
+                        <option value="Hembra">Hembra</option>
+                        <option value="Macho">Macho</option>
+                        <option value="Aún no lo sé">Aun no lo sé</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Por favor escoja una opción.
+                      </div>
+                    </div>
+                  </div><br>
+                    <div class="col-12">
+                      <label for="validationCustom02" class="form-label" id="sis">Imagen:</label>
+                      <input type="file" name="imagen" required class="form-control" id="imgG">
+                      <div class="invalid-feedback">
+                        Por favor agrege una imagen del gatito.
+                      </div>
+                    </div><br>
+                  
+                    <div class="col-6">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck" style="color: #a5a58d;font-size: 15px;">
+                          Acepta las responsabilidades de tener a uno de nuestros pequeños tesoros
+                        </label>
+                        <div class="invalid-feedback">
+                          Léa lo indicado.
+                        </div>
+                      </div>
+                    </div>
+                  
+                  <div class=" vstack gap-2 col-md-5 mx-auto"><br>
+                    <button class="btn " type="submit" style="background-color: #a3b18a;" onclick="enviarD()">Enviar Formulario</button>
+                    <button type="reset" onclick="borrarT()" class="btn" style="background-color: #a3b18ab8;">Borrar todos los datos</button>
+                    <div id="botonActualizar" style=" visibility: hidden;"></div><br>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            
+
+              <center>
+                <br><br><div id="title" style="color: #588157;font-family: ADELIA;visibility: hidden;"><h3>Datos ingresados</h3></div>
+              </center>
+
+              <br><div class="row" id="busqueda" style="visibility: hidden;">
+                <div class="col-5" style="color: white;">si</div>
+                  <div class="col-4 align-text-right" >
+                    <div class="form-floating ">
+                      <input type="text" class="form-control" id="textBus" placeholder="Ingrese el nombre del gatito">
+                      <label for="floatingInput">Busqueda:</label>
+                    </div>                      
+                  </div>
+                  <div class="col-2" >
+                    <button class="btn" onclick="busqueda()"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg></button>
+                    <button class="btn" onclick="mostrarD()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-counterclockwise" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2v1z"/>
+                      <path d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466z"/>
+                    </svg></button>
+                  <div class="col-1" style="color: white;">si</div>
+              </div><br><br>
+
+              <div class="container-fluid col-10" id="table" style="visibility: hidden;">
+                <br><table class="col-12 table table-hover table-striped align-text-center">
+                    <thead>
+                      <tr  style="background-color: #a3b18a;">
+                        <th scope="col">#</th>
+                        <th scope="col" width="150" min-heigth="150">Nombre</th>
+                        <th scope="col" width="150" min-heigth="150">Sexo</th>
+                        <th scope="col" width="150" min-heigth="150">Edad</th>
+                        <th scope="col" width="150" min-heigth="150">Imagen</th>
+                        <th scope="col" width="150" min-heigth="150">.</th>
+                      </tr>
+                    </thead>
+                    <tbody id="tabla">
+                      
+                    </tbody>
+                  </table><br> 
+        
+                  <div class="container-fluid col-7">
+                    <button type="button" class="btn btn-outline-success" onclick="eliminarUl()">Borrar Último</button>
+                    <button type="button" class="btn btn-outline-success" onclick="eliminarPr()">Borrar Primero</button>
+                  </div>
+            </div><br><br>
+
+            </div>
+          
+
+      </center><br><br>
+
+      <footer class="footer">
+        <div class="row">
+          <div class="col-4" style="color: white;"> 
+            si
+          </div><br><br>
+          <div class="col-4" style="color: #a3b18a;font-family: Bahnschrift Condensed;font-size: 20px;"><center>
+            <span>©</span>
+            <span><em>2025</em> </span>
+            <span>|</span>
+            <span> <a href="https://www.instagram.com/31gatitos/" target="_blank" style="color: #a3b18a;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+              </svg></a><em> Apóyanos en este gran proyecto</em></span>
+            
+
+          </center> 
+          </div>
+          <div class="col-4" style="color: white;"> 
+            si
+          </div>
+
+        </div>
+      </footer>
+        
+        </div><br>
+
+        <script src="js/datos.js" type="text/javascript"></script>  
+</body>
+</html>
